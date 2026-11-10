@@ -247,7 +247,7 @@ export default function DeStijlPortfolio() {
               onClick={() => setMobileMenuOpen(false)}
               className="bg-[#DC2626] text-white py-3 text-center border-3 border-[#111111] destijl-shadow-sm mt-2"
             >
-              Inquire & Booking
+              Inquire &amp; Booking
             </a>
           </div>
         )}
@@ -587,7 +587,7 @@ export default function DeStijlPortfolio() {
 
           <div className="flex items-center justify-center gap-3">
             <div className="w-8 h-8 bg-[#DC2626] border-2 border-[#111111]"></div>
-            <span className="font-black uppercase tracking-widest text-sm">— Theo van Doesburg &amp; Maarten van Doesburg</span>
+            <span className="font-black uppercase tracking-widest text-sm">&mdash; Theo van Doesburg &amp; Maarten van Doesburg</span>
             <div className="w-8 h-8 bg-[#2563EB] border-2 border-[#111111]"></div>
           </div>
         </div>
