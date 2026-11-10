@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --stijl-red: #E43D30;
+    --stijl-blue: #0A58CA;
+    --stijl-yellow: #FFD13B;
+    --stijl-black: #000000;
+    --stijl-white: #F8F9FA;
+  }
+
+  body {
+    background-color: var(--stijl-white);
+    color: var(--stijl-black);
+    font-family: var(--font-geist-sans), Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom De Stijl Utilities */
+.border-stijl {
+  border: 4px solid #000000;
+}
+
+.border-stijl-thick {
+  border: 6px solid #000000;
+}
+
+.border-stijl-t {
+  border-top: 4px solid #000000;
+}
+
+.border-stijl-b {
+  border-bottom: 4px solid #000000;
+}
+
+.border-stijl-l {
+  border-left: 4px solid #000000;
+}
+
+.border-stijl-r {
+  border-right: 4px solid #000000;
+}
+
+.bg-stijl-red {
+  background-color: #E43D30;
+}
+
+.bg-stijl-blue {
+  background-color: #0A58CA;
+}
+
+.bg-stijl-yellow {
+  background-color: #FFD13B;
+}
+
+.bg-stijl-black {
+  background-color: #000000;
+}
+
+.bg-stijl-white {
+  background-color: #F8F9FA;
+}
+
+.text-stijl-red {
+  color: #E43D30;
+}
+
+.text-stijl-blue {
+  color: #0A58CA;
+}
+
+.text-stijl-yellow {
+  color: #FFD13B;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F9FA;
+  border-left: 4px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
 }
