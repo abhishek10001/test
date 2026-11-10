@@ -11,9 +11,7 @@ import {
   ExternalLink,
   BookOpen,
   Award,
-  Layers,
   MapPin,
-  Clock,
   ArrowRight
 } from 'lucide-react';
 
@@ -184,7 +182,7 @@ export default function Home() {
             STATUS: AVAILABLE FOR 2025/2026 COMMISSIONS
           </span>
           <span className="hidden md:inline text-zinc-400">|</span>
-          <span className="hidden md:inline text-zinc-300">ROTTERDAM — AMSTERDAM — ZURICH — TOKYO</span>
+          <span className="hidden md:inline text-zinc-300">ROTTERDAM &mdash; AMSTERDAM &mdash; ZURICH &mdash; TOKYO</span>
         </div>
         <div className="flex items-center gap-4 text-[#FACC15] font-bold">
           <span>NEO-PLASTICISM PORTFOLIO V2.5</span>
@@ -275,7 +273,7 @@ export default function Home() {
         <div className="col-span-12 lg:col-span-7 p-6 md:p-12 lg:p-16 border-b-4 lg:border-b-0 lg:border-r-4 border-black flex flex-col justify-between bg-white">
           <div className="space-y-6">
             <div className="inline-block bg-black text-white px-3 py-1 font-mono text-xs font-bold tracking-widest">
-              PORTFOLIO ARCHIVE // 2018–2025
+              PORTFOLIO ARCHIVE // 2018&ndash;2025
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-none">
               STRUCTURAL <br />
@@ -392,6 +390,7 @@ export default function Home() {
             >
               {/* Image Container */}
               <div className="relative h-72 md:h-96 w-full overflow-hidden bg-black">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={item.image}
                   alt={item.title}
@@ -443,7 +442,7 @@ export default function Home() {
               Inspired by the rigorous philosophies of Piet Mondrian and Gerrit Rietveld, my work strips away superfluous ornamentation to reveal the pure tectonic geometry underlying modern architecture.
             </p>
             <p className="font-bold text-[#FACC15]">
-              — HENDRIK VANDERBILT, ROTTERDAM 2024
+              &mdash; HENDRIK VANDERBILT, ROTTERDAM 2024
             </p>
           </div>
         </div>
@@ -692,6 +691,7 @@ export default function Home() {
             {/* Modal Content */}
             <div className="grid grid-cols-1 lg:grid-cols-12 overflow-y-auto">
               <div className="lg:col-span-8 bg-black flex items-center justify-center p-4 border-b-4 lg:border-b-0 lg:border-r-4 border-black min-h-[350px]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img 
                   src={selectedImage.image} 
                   alt={selectedImage.title} 
@@ -717,7 +717,7 @@ export default function Home() {
                   </div>
                   <div className="font-mono text-xs flex justify-between">
                     <span className="text-zinc-500 font-bold">MEDIUM:</span>
-                    <span className="font-bold">Archival Pigment Print on Hahnemühle</span>
+                    <span className="font-bold">Archival Pigment Print on Hahnem&uuml;hle</span>
                   </div>
                   <button
                     onClick={() => {
