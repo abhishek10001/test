@@ -12,11 +12,8 @@ import {
   Send, 
   CheckCircle, 
   Filter, 
-  Layers, 
-  Compass, 
   Award,
-  Sliders,
-  ExternalLink
+  Compass
 } from 'lucide-react';
 
 interface GalleryItem {
@@ -140,9 +137,6 @@ export default function DeStijlPortfolio() {
     e.preventDefault();
     if (!formData.name || !formData.email) return;
     setFormSubmitted(true);
-    setTimeout(() => {
-      // reset after 5s
-    }, 5000);
   };
 
   return (
@@ -324,7 +318,7 @@ export default function DeStijlPortfolio() {
                 
                 <div className="pt-3 border-t-2 border-black flex justify-between items-center font-mono text-xs font-bold">
                   <span>VIEW COMPOSITION</span>
-                  <span className="w-4 h-4 bg-[#FFD13B] border-2 border-black inline-flex items-center justify-center">→</span>
+                  <span className="w-4 h-4 bg-[#FFD13B] border-2 border-black inline-flex items-center justify-center">&rarr;</span>
                 </div>
               </div>
             </div>
@@ -648,7 +642,7 @@ export default function DeStijlPortfolio() {
         </div>
 
         <div className="p-8 flex flex-col sm:flex-row justify-between items-center gap-4 font-mono text-xs text-zinc-400">
-          <div>© {currentYear} PIET FRAMEWORKS. ALL RIGHTS RESERVED.</div>
+          <div>&copy; {currentYear} PIET FRAMEWORKS. ALL RIGHTS RESERVED.</div>
           <div className="flex items-center gap-2">
             <span>DE STIJL NEO-PLASTICISM</span>
             <span className="w-2 h-2 bg-[#E43D30] inline-block"></span>
