@@ -207,16 +207,16 @@ export default function Home() {
           {/* Desktop Nav Items */}
           <nav className="hidden md:flex col-span-8 items-stretch font-mono text-sm font-bold">
             <a href="#gallery" className="flex-1 px-6 border-r-4 border-black flex items-center justify-center hover:bg-[#E5383B] hover:text-white transition-colors">
-              01 // GALLERY
+              01 {'//'} GALLERY
             </a>
             <a href="#statement" className="flex-1 px-6 border-r-4 border-black flex items-center justify-center hover:bg-[#1D4ED8] hover:text-white transition-colors">
-              02 // PHILOSOPHY
+              02 {'//'} PHILOSOPHY
             </a>
             <a href="#exhibitions" className="flex-1 px-6 border-r-4 border-black flex items-center justify-center hover:bg-[#FACC15] hover:text-black transition-colors">
-              03 // EXHIBITIONS
+              03 {'//'} EXHIBITIONS
             </a>
             <a href="#contact" className="flex-1 px-6 flex items-center justify-center bg-black text-white hover:bg-zinc-800 transition-colors">
-              04 // INQUIRE
+              04 {'//'} INQUIRE
             </a>
           </nav>
 
@@ -240,28 +240,28 @@ export default function Home() {
               onClick={() => setMobileMenuOpen(false)}
               className="block p-4 border-b-2 border-black hover:bg-[#E5383B] hover:text-white"
             >
-              01 // GALLERY
+              01 {'//'} GALLERY
             </a>
             <a 
               href="#statement" 
               onClick={() => setMobileMenuOpen(false)}
               className="block p-4 border-b-2 border-black hover:bg-[#1D4ED8] hover:text-white"
             >
-              02 // PHILOSOPHY
+              02 {'//'} PHILOSOPHY
             </a>
             <a 
               href="#exhibitions" 
               onClick={() => setMobileMenuOpen(false)}
               className="block p-4 border-b-2 border-black hover:bg-[#FACC15] hover:text-black"
             >
-              03 // EXHIBITIONS
+              03 {'//'} EXHIBITIONS
             </a>
             <a 
               href="#contact" 
               onClick={() => setMobileMenuOpen(false)}
               className="block p-4 bg-black text-white"
             >
-              04 // INQUIRE
+              04 {'//'} INQUIRE
             </a>
           </div>
         )}
@@ -273,7 +273,7 @@ export default function Home() {
         <div className="col-span-12 lg:col-span-7 p-6 md:p-12 lg:p-16 border-b-4 lg:border-b-0 lg:border-r-4 border-black flex flex-col justify-between bg-white">
           <div className="space-y-6">
             <div className="inline-block bg-black text-white px-3 py-1 font-mono text-xs font-bold tracking-widest">
-              PORTFOLIO ARCHIVE // 2018&ndash;2025
+              PORTFOLIO ARCHIVE {'//'} 2018&ndash;2025
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-none">
               STRUCTURAL <br />
@@ -403,7 +403,7 @@ export default function Home() {
                 </div>
 
                 <div className="absolute bottom-0 left-0 bg-black text-white font-mono text-xs px-3 py-1.5 border-r-4 border-t-4 border-black">
-                  {item.year} // {item.location}
+                  {item.year} {'//'} {item.location}
                 </div>
               </div>
 
@@ -431,7 +431,7 @@ export default function Home() {
         <div className="col-span-12 lg:col-span-5 bg-[#1D4ED8] text-white p-8 md:p-12 lg:p-16 border-b-4 lg:border-b-0 lg:border-r-4 border-black flex flex-col justify-between">
           <div>
             <span className="font-mono text-xs bg-white text-[#1D4ED8] px-2.5 py-1 font-bold inline-block mb-6">
-              SECTION 02 // ARTIST MANIFESTO
+              SECTION 02 {'//'} ARTIST MANIFESTO
             </span>
             <h2 className="text-3xl md:text-5xl font-black tracking-tighter leading-none mb-6">
               &quot;THE CAMERA IS AN INSTRUMENT OF ORTHOGONAL TRUTH.&quot;
@@ -496,7 +496,7 @@ export default function Home() {
               <div key={idx} className="border-4 border-black p-5 bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
                   <span className="font-mono text-xs bg-black text-white px-2 py-0.5 font-bold w-max">
-                    {ex.year} // {ex.type.toUpperCase()}
+                    {ex.year} {'//'} {ex.type.toUpperCase()}
                   </span>
                   <span className="font-mono text-xs text-[#1D4ED8] font-bold flex items-center gap-1">
                     <MapPin size={14} /> {ex.location}
@@ -560,7 +560,7 @@ export default function Home() {
         <div className="col-span-12 lg:col-span-5 bg-black text-white p-8 md:p-12 lg:p-16 flex flex-col justify-between border-b-4 lg:border-b-0 lg:border-r-4 border-black">
           <div>
             <span className="font-mono text-xs bg-[#E5383B] text-white px-2.5 py-1 font-bold inline-block mb-6">
-              SECTION 04 // COMMISSION DESK
+              SECTION 04 {'//'} COMMISSION DESK
             </span>
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter leading-none mb-6">
               INITIATE A <br />
@@ -677,7 +677,7 @@ export default function Home() {
             {/* Modal Header Bar */}
             <div className="bg-black text-white p-4 flex justify-between items-center border-b-4 border-black">
               <span className="font-mono text-xs font-bold text-[#FACC15]">
-                ARCHIVE ITEM // {selectedImage.id} [{selectedImage.category.toUpperCase()}]
+                ARCHIVE ITEM {'//'} {selectedImage.id} [{selectedImage.category.toUpperCase()}]
               </span>
               <button 
                 onClick={() => setSelectedImage(null)}
@@ -748,10 +748,10 @@ export default function Home() {
 
           <div className="col-span-6 md:col-span-4 p-8 border-b-4 md:border-b-0 md:border-r-4 border-black font-mono text-xs space-y-2">
             <span className="text-[#FACC15] font-bold block mb-3">QUICK NAVIGATION</span>
-            <a href="#gallery" className="block hover:text-[#E5383B] transition-colors">01 // Gallery Archive</a>
-            <a href="#statement" className="block hover:text-[#1D4ED8] transition-colors">02 // Artist Philosophy</a>
-            <a href="#exhibitions" className="block hover:text-[#FACC15] transition-colors">03 // Exhibitions & Books</a>
-            <a href="#contact" className="block text-[#E5383B] font-bold hover:underline">04 // Commission Desk</a>
+            <a href="#gallery" className="block hover:text-[#E5383B] transition-colors">01 {'//'} Gallery Archive</a>
+            <a href="#statement" className="block hover:text-[#1D4ED8] transition-colors">02 {'//'} Artist Philosophy</a>
+            <a href="#exhibitions" className="block hover:text-[#FACC15] transition-colors">03 {'//'} Exhibitions & Books</a>
+            <a href="#contact" className="block text-[#E5383B] font-bold hover:underline">04 {'//'} Commission Desk</a>
           </div>
 
           <div className="col-span-6 md:col-span-4 p-8 font-mono text-xs space-y-2">
@@ -777,7 +777,7 @@ export default function Home() {
           </div>
           <div className="flex gap-4 text-[#FACC15]">
             <span>DE STIJL GRID SYSTEM</span>
-            <span>//</span>
+            <span>{'//'}</span>
             <span>PURE NEO-PLASTICISM</span>
           </div>
         </div>
