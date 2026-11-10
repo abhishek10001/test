@@ -11,12 +11,8 @@ import {
   CheckCircle, 
   Mail, 
   Phone, 
-  User, 
   Menu, 
-  Sparkles,
-  Award,
-  Layers,
-  Compass
+  Sparkles
 } from 'lucide-react';
 
 interface GalleryItem {
@@ -269,7 +265,7 @@ export default function DeStijlPortfolio() {
 
             <div>
               <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-[1.05] uppercase mb-6">
-                Redefining Space Through <span className="text-[#DC2626] bg-[#EAB308] px-2 py-0.5">Primary</span> Form & Light.
+                Redefining Space Through <span className="text-[#DC2626] bg-[#EAB308] px-2 py-0.5">Primary</span> Form &amp; Light.
               </h1>
               <p className="text-lg sm:text-xl font-medium text-zinc-700 max-w-xl leading-relaxed mb-8">
                 Eliminating the accidental. Embracing strict verticality, absolute horizontality, and the uncompromising dialogue of primary planes.
@@ -389,7 +385,6 @@ export default function DeStijlPortfolio() {
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredItems.map((item) => {
-              // Determine color block tag style
               const badgeColor = 
                 item.colorBlock === 'red' ? 'bg-[#DC2626] text-white' :
                 item.colorBlock === 'yellow' ? 'bg-[#EAB308] text-[#111111]' :
@@ -477,7 +472,7 @@ export default function DeStijlPortfolio() {
               <div className="md:col-span-4 p-6 flex flex-col justify-between bg-white">
                 <div>
                   <div className="mb-6">
-                    <span className="text-xs font-bold uppercase tracking-widest text-zinc-400 block mb-1">Location & Year</span>
+                    <span className="text-xs font-bold uppercase tracking-widest text-zinc-400 block mb-1">Location &amp; Year</span>
                     <span className="font-black text-lg block">{selectedImage.location} ({selectedImage.year})</span>
                   </div>
 
