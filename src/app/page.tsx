@@ -151,7 +151,7 @@ export default function DeStijlPortfolio() {
           <span className="font-bold">PIET FRAMEWORKS / DE STIJL EST. {currentYear}</span>
         </div>
         <div className="flex items-center gap-6">
-          <span className="hidden sm:inline text-zinc-400">ARCHITECTURAL & PORTRAIT LENS</span>
+          <span className="hidden sm:inline text-zinc-400">ARCHITECTURAL &amp; PORTRAIT LENS</span>
           <a href="#contact" className="bg-[#E43D30] text-white px-3 py-1 font-bold hover:bg-white hover:text-black transition-colors">
             COMMISSION
           </a>
@@ -355,7 +355,7 @@ export default function DeStijlPortfolio() {
           <div className="mt-12 pt-8 border-t-4 border-black flex flex-wrap gap-6 items-center justify-between font-mono text-sm">
             <div>
               <div className="font-black">PIET_FRAMEWORKS</div>
-              <div className="text-zinc-500 text-xs">LEAD PHOTOGRAPHER & DIRECTOR</div>
+              <div className="text-zinc-500 text-xs">LEAD PHOTOGRAPHER &amp; DIRECTOR</div>
             </div>
             <div className="flex gap-2">
               <div className="w-6 h-6 bg-[#E43D30] border-2 border-black"></div>
@@ -369,7 +369,7 @@ export default function DeStijlPortfolio() {
         <div className="lg:col-span-5 grid grid-cols-1">
           <div className="p-8 border-stijl-b bg-[#FFD13B] flex flex-col justify-center">
             <h3 className="font-mono text-xs font-bold tracking-widest mb-2">01 / EQUIPMENT SPECIFICATION</h3>
-            <p className="text-lg font-black">Large Format Medium & High-Resolution Sensor Arrays. Uncompromising optical sharpness.</p>
+            <p className="text-lg font-black">Large Format Medium &amp; High-Resolution Sensor Arrays. Uncompromising optical sharpness.</p>
           </div>
 
           <div className="p-8 border-stijl-b bg-[#0A58CA] text-white flex flex-col justify-center">
@@ -378,7 +378,7 @@ export default function DeStijlPortfolio() {
           </div>
 
           <div className="p-8 bg-[#E43D30] text-white flex flex-col justify-center">
-            <h3 className="font-mono text-xs font-bold tracking-widest mb-2">03 / EXHIBITIONS & CLIENTS</h3>
+            <h3 className="font-mono text-xs font-bold tracking-widest mb-2">03 / EXHIBITIONS &amp; CLIENTS</h3>
             <p className="text-lg font-black">Stedelijk Museum, Vitra Design Museum, Architectural Digest, Foster + Partners.</p>
           </div>
         </div>
@@ -518,7 +518,7 @@ export default function DeStijlPortfolio() {
               </div>
 
               <div>
-                <label className="block font-mono text-xs font-bold mb-2">PROJECT DETAILS & TIMELINE</label>
+                <label className="block font-mono text-xs font-bold mb-2">PROJECT DETAILS &amp; TIMELINE</label>
                 <textarea 
                   rows={4}
                   required
